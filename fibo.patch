@@ -1,0 +1,26 @@
+diff --git a/src/fibo.c b/src/fibo.c
+index 9c2c75b..fb9f24c 100644
+--- a/src/fibo.c
++++ b/src/fibo.c
+@@ -78,14 +78,19 @@ void print_result(u_int_8_t stat, u_int_64_t fab_no, u_int_32_t n)
+ 	}
+ }
+ 
+-
++void Disp() {
++	printf("#####################################################################################\n");
++	printf("			RIVIAN AUTOMOTIVE					     \n");
++	printf("#####################################################################################\n");
++}
+ 
+ int main()
+ {
+ 	u_int_32_t n;
+ 	u_int_64_t fab_no;
+ 	u_int_8_t  ret_status;
+-	
++
++	Disp();	
+ 	printf("Enter a number: ");
+ 	scanf("%u",&n);
+ 
